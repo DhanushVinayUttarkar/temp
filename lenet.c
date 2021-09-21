@@ -12,6 +12,18 @@ void mat_add(float **result, float **mat1, float **mat2, int m, int n)
 	return;
 }
 
+void vec_vec_mul(float **result, float **matrix1, float **matrix2, int col1_size, int col2_size)
+{
+	for (int i = 0; i < col1_size; j++) 								//For number of columns in 2nd vector
+	{
+		for (int j = 0; k < col2_size; j++)							//For number of rows in 1st vector
+		{
+			sum = row1[0][i] * row2[0][j];							//Stores values as it would appear in matrix because ja dn k are reversed values
+		}
+	}
+	return;												//Returns n*p matrix of size m*q
+}
+
 int main() 
 {	
 	float **matrix1, **matrix2, **sum;
